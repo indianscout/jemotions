@@ -5,22 +5,22 @@
   * The following emotics are supported
   * -----------------------------------
   * (bomb) @== 
-  * (laugh) :-> :~> :^> :D :-D :~D :^D
+  * (laugh) :D :-D :~D :^D
   * (smile!) :} :-} :~} :^}
   * (smile) :-) :-] :~) :^) =-) 
-  * (cool) |) |] |} |> |~) |^) |-) |-] 
+  * (cool) |) |] |} |~) |^) |-) |-] 
   * (kiss) :* :-* :^* =-* =^* 
   * (tongue) :P :P :-p :^P =-P =^P :^p =-p =^p 
   * (!funny) (!funny!) :/) 
-  * (devil) 3:) (6) >:) }:-) ]:-> ]:-) 
+  * (devil) 3:) (6) }:-) ]:-) 
   * (soso) :| :-| :~| :^|
   * (hmm) :-\ :~\ :^\ :-/ :~/ :^/
   * (shutup) :X :# :-X :~X :^X :-# :~# :^#
   * (ohh) :-O :~O :^O :-0 :~0 :^0 :-o :~o :^o
-  * (blink) ;) ;> ;] ;} ;-) ;~) ;^) ;^} 
-  * (angry) :@ >:(
-  * (sad) :-( :-< :-[ :-{
-  * (cry) :.( :.< :.[ :.{
+  * (blink) ;) ;] ;} ;-) ;~) ;^) ;^}
+  * (angry) :@ 
+  * (sad) :-( :-[ :-{
+  * (cry) :.( :.[ :.{
   *
   * Test with
   * ---------
@@ -30,7 +30,7 @@
   * 	});
   *
   * HTML:
-  * 	<p>(bomb) @== (laugh) :-> :~> :^> :D :-D :~D :^D (smile!) :} :-} :~} :^} (smile) :-) :-] :~) :^) =-) (cool) |) |] |} |> |~) |^) |-) |-] (kiss) :* :-* :^* =-* =^* (tongue) :P :p :-p :^P =-P =^P :^p =-p =^p (!funny) (!funny!) :/) (devil) 3:) (6) >:) }:) ]:> ]:) (soso) :| :-| :~| :^| (hmm) :-\ :~\ :^\ :-/ :~/ :^/ (shutup) :X :# :-X :-X :~X :^X :-# :~# :^# (ohh) :-O :~O :^O :-0 :~0 :^0 :-o :~o :^o (blink) ;) ;> ;] ;} ;-) ;~) ;^) ;^} (angry) :@ >:( (sad) :-( :-< :-[ :-{ (cry) :.( :.< :.[ :.{</p>
+  * 	<p>(bomb) @== (laugh) :D :-D :~D :^D (smile!) :} :-} :~} :^} (smile) :-) :-] :~) :^) =-) (cool) |) |] |}  |~) |^) |-) |-] (kiss) :* :-* :^* =-* =^* (tongue) :P :p :-p :^P =-P =^P :^p =-p =^p (!funny) (!funny!) :/) (devil) 3:) (6) }:) ]:) (soso) :| :-| :~| :^| (hmm) :-\ :~\ :^\ :-/ :~/ :^/ (shutup) :X :# :-X :-X :~X :^X :-# :~# :^# (ohh) :-O :~O :^O :-0 :~0 :^0 :-o :~o :^o (blink) ;) ;] ;} ;-) ;~) ;^) ;^} (angry) :@ (sad) :-( :-[ :-{ (cry) :.( :.[ :.{</p>
   * 
   * On jsfiddle.net:
   * 	http://jsfiddle.net/tntdfch5
@@ -64,7 +64,7 @@
   *		}
   * 
   * HTML:
-  * 	<p>(bomb) @== (laugh) :-> :~> :^> :D :-D :~D :^D (smile!) :} :-} :~} :^} (smile) :-) :-] :~) :^) =-) (cool) |) |] |} |> |~) |^) |-) |-] (kiss) :* :-* :^* =-* =^* (tongue) :P :p :-p :^P =-P =^P :^p =-p =^p (!funny) (!funny!) :/) (devil) 3:) (6) >:) }:) ]:> ]:) (soso) :| :-| :~| :^| (hmm) :-\ :~\ :^\ :-/ :~/ :^/ (shutup) :X :# :-X :~X :^X :-# :~# :^# (ohh) :-O :~O :^O :-0 :~0 :^0 :-o :~o :^o (blink) ;) ;> ;] ;} ;-) ;~) ;^) ;^} (angry) :@ >:( (sad) :-( :-< :-[ :-{ (cry) :.( :.< :.[ :.{</p>
+  * 	<p>(bomb) @== (laugh) :D :-D :~D :^D (smile!) :} :-} :~} :^} (smile) :-) :-] :~) :^) =-) (cool) |) |] |}  |~) |^) |-) |-] (kiss) :* :-* :^* =-* =^* (tongue) :P :p :-p :^P =-P =^P :^p =-p =^p (!funny) (!funny!) :/) (devil) 3:) (6) }:) ]:) (soso) :| :-| :~| :^| (hmm) :-\ :~\ :^\ :-/ :~/ :^/ (shutup) :X :# :-X :~X :^X :-# :~# :^# (ohh) :-O :~O :^O :-0 :~0 :^0 :-o :~o :^o (blink) ;)  ;] ;} ;-) ;~) ;^) ;^} (angry) :@  (sad) :-(  :-[ :-{ (cry) :.(  :.[ :.{</p>
   *
   * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
   * and GPL (http://www.opensource.org/licenses/gpl-3.0.html).
@@ -99,9 +99,6 @@
 					'(bomb)': 	'jEmotion-000-000',
 					'@==': 		'jEmotion-000-000',
 					'(laugh)': 	'jEmotion-001-000',
-					':->': 		'jEmotion-001-000', 
-					':~>': 		'jEmotion-001-000',
-					':^>': 		'jEmotion-001-000',
 					':D': 		'jEmotion-001-000',
 					':-D': 		'jEmotion-001-000', 
 					':~D': 		'jEmotion-001-000',
@@ -148,9 +145,7 @@
 					'(devil)': 	'jEmotion-001-007',
 					'3:)': 		'jEmotion-001-007',
 					'(6)': 		'jEmotion-001-007',
-					'>:)': 		'jEmotion-001-007',
 					'}:)': 	    'jEmotion-001-007',
-					']:>': 	    'jEmotion-001-007',
 					']:)': 	    'jEmotion-001-007',
 					'(soso)': 	'jEmotion-002-000',
 					':|': 		'jEmotion-002-000',
@@ -188,7 +183,6 @@
 					':^o': 		'jEmotion-003-001',
 					'(blink)': 	'jEmotion-003-002',
 					';)': 		'jEmotion-003-002',
-					';>': 		'jEmotion-003-002',
 					';]': 		'jEmotion-003-002',
 					';}': 		'jEmotion-003-002',
 					';-)': 		'jEmotion-003-002',
@@ -197,15 +191,12 @@
 					';^}': 		'jEmotion-003-002',
 					'(angry)': 	'jEmotion-004-000',
 					':@': 		'jEmotion-004-000',
-					'>:(': 		'jEmotion-004-000',
 					'(sad)': 	'jEmotion-004-001',
 					':-(': 		'jEmotion-004-001',
-					':-<': 		'jEmotion-004-001',
 					':-[': 		'jEmotion-004-001',
 					':-{': 		'jEmotion-004-001',
 					'(cry)': 	'jEmotion-004-002',
 					':.(': 		'jEmotion-004-002',
-					':.<': 		'jEmotion-004-002',
 					':.[': 		'jEmotion-004-002',
 					':.{': 		'jEmotion-004-002'
 			   },
@@ -225,7 +216,7 @@
 
 		this.each(
 			function(){
-				var text = $(this).text();
+				var text = $(this).html();
 				
 				for(var emotion in defaults.map){
 					if(text.match(new RegExp(escapeRegExp(emotion)))){
