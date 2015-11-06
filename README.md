@@ -1,5 +1,5 @@
 #jEmotions v1.1.0 jQuery Plugin
-##jQuery Emotions (jEmotions) is a simple but powerful utility to search and replace emotics with emotic-images.
+jQuery Emotions (jEmotions) is a simple but powerful utility to search and replace emotics with emotic-images.
 
 ##The following emotics are supported
   * (bomb) @== 
