@@ -1,7 +1,7 @@
-#jEmotions v1.1.0 jQuery Plugin
+# jEmotions v1.1.0 jQuery Plugin
 jQuery Emotions (jEmotions) is a simple but powerful utility to search and replace emotics with emotic-images.
 
-##Supported emotions
+## Supported emotions
   * (bomb) @== 
   * (laugh) :D :-D :~D :^D
   * (smile!) :} :-} :~} :^}
@@ -20,7 +20,7 @@ jQuery Emotions (jEmotions) is a simple but powerful utility to search and repla
   * (sad) :-( :-[ :-{
   * (cry) :.( :.[ :.{
 
-##Test
+## Test
 ```javascript
   $(function(){
     $('p').jEmotions();
@@ -31,10 +31,10 @@ jQuery Emotions (jEmotions) is a simple but powerful utility to search and repla
   <p>(bomb) @== (laugh) :D :-D :~D :^D (smile!) :} :-} :~} :^} (smile) :-) :-] :~) :^) =-) (cool) |) |] |}  |~) |^) |-) |-] (kiss) :* :-* :^* =-* =^* (tongue) :P :p :-p :^P =-P =^P :^p =-p =^p (!funny) (!funny!) :/) (devil) 3:) (6) }:) ]:) (soso) :| :-| :~| :^| (hmm) :-\ :~\ :^\ :-/ :~/ :^/ (shutup) :X :# :-X :-X :~X :^X :-# :~# :^# (ohh) :-O :~O :^O :-0 :~0 :^0 :-o :~o :^o (blink) ;) ;] ;} ;-) ;~) ;^) ;^} (angry) :@ (sad) :-( :-[ :-{ (cry) :.( :.[ :.{</p>
 ```
 
-##Jsfiddle
+## Jsfiddle
 http://jsfiddle.net/tntdfch5
 
-##Extend
+## Extend
 ```javascript
   $(function(){
       $('p').jEmotions({
